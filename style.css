@@ -1,0 +1,113 @@
+   body {
+            font-family: Arial, sans-serif;
+          background-color: whitesmoke; 
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        header {
+            background-color: #33FFFF;
+            color: mediumpurple;
+            text-align: center;
+            padding: 1em;
+            
+        }
+        
+  header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  
+     float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+  
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+        nav {
+            background-color: #330000;
+            color: white;
+            padding: 1em;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em;
+            margin: 0.5em;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #FF0000;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height:10px;
+        }
+         img {
+          max-width: 50%;
+           height: auto;
+           margin-top: 5px;
+           border-radius: 5px;
+          position: center;
+         }
+         button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+ main {
+    max-width: 250px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: plum;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ button:hover {
+    background-color: #0056b3;
+}
+   section{
+     color: magenta;
+     text-align: center;
+   }
+   h4.groove {
+     border-style: groove;
+     border: 2px groove #333;
+            padding: 30px;
+            text-align: center;
+            background-color: mediumpurple;
+   }
+   p.groove{
+     border-style: hidden;
+   }
